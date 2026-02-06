@@ -55,6 +55,7 @@ const categories = [
   { 
     id: "icemojito", 
     label: "Ice & Mojito", 
+    
     icon: icemojito 
   },
   { 
