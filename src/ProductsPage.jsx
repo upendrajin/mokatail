@@ -46,9 +46,9 @@ import CO2Ring from "./assets/products/co2-register-ring.png";
 import ChoppingBoard from "./assets/products/ped.png";
 
 import icemojito from "./assets/icemohito.png"
-import Ice from "./assets/ice.png"
-import Milk from "./assets/milk.png"
-import Soda from "./assets/soda-Flav.png"
+import Ice from "./assets/Ice.png"
+import Milk from "./assets/Milk.png"
+import Soda from "./assets/Soda-Flav.png"
 import Franchise from "./assets/franchise-kit.png"
 
 const categories = [
