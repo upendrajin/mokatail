@@ -45,7 +45,7 @@ import Clamp from "./assets/products/sewer.png";
 import CO2Ring from "./assets/products/co2-register-ring.png";
 import ChoppingBoard from "./assets/products/ped.png";
 
-import icemojito from "./assets/ice-mojhito.png"
+import icemojito from "./assets/icemohito.png"
 import Ice from "./assets/ice.png"
 import Milk from "./assets/milk.png"
 import Soda from "./assets/soda-Flav.png"
@@ -55,7 +55,7 @@ const categories = [
   { 
     id: "icemojito", 
     label: "Ice & Mojito", 
-    
+
     icon: icemojito 
   },
   { 
