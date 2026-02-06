@@ -8,23 +8,24 @@ import "swiper/css/pagination";
 const reviews = [
   {
     text:
-      "Absolutely love this place! The sodas are so refreshing and creative — I've never tasted anything like the Mango Mint Fizz before! Super friendly staff too. Highly recommend.",
+      "Really loved this place. The sodas taste fresh and different from regular soft drinks. Mango Mint was my favorite. Staff is polite and service is quick.",
     name: "Shubhambhai",
     rating: 5,
   },
   {
     text:
-      "Amazing flavors and great service. The quality is consistent every time and the ambiance is perfect for hanging out with friends.",
+      "Good variety of flavors and the quality is consistent. Nice place to sit and chill with friends. Would definitely visit again.",
     name: "Rakesh Patel",
     rating: 4.5,
   },
   {
     text:
-      "Unique soda experience! The drinks are refreshing and the staff is very welcoming. A must-visit spot.",
+      "Refreshing drinks and a unique concept. The staff was friendly and helped us choose flavors. Worth trying if you like soda-based drinks.",
     name: "Amit Shah",
     rating: 4.5,
   },
 ];
+
 
 const overallRating = 4.9;
 const totalReviews = "38+";

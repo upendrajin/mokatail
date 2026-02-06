@@ -14,7 +14,7 @@ const locations = [
   {
     title: "Yogi Arcade – Srushti Row House, Amroli, Surat",
     owner: "Mocktail Team",
-    map: "https://www.google.com/maps?q=Amroli,Surat&output=embed",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.6377250767055!2d72.8586849!3d21.246209699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fae8c232d91%3A0x7bacff9cac771749!2sMocktail%20Soda%20%26%20Ice%20Cream!5e0!3m2!1sen!2sin!4v1770391509691!5m2!1sen!2sin"
   },
   {
     title: "Palladium Mall, Yogi Chowk, Varachha, Surat",

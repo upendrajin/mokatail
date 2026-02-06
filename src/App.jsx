@@ -83,6 +83,7 @@ import PaymentAndBooking from "./component/PaymentAndBooking";
 // PAGES
 import ProductsPage from "./ProductsPage";
 import OurProducts from "./component/OurProducts";
+import WhatsAppButton from "./component/WhatsAppButton";
 
 function HomePage() {
   return (
@@ -123,6 +124,7 @@ function App() {
         {/* PRODUCTS PAGE (NO HEADER / FOOTER) */}
         <Route path="/products" element={<ProductsPage />} />
       </Routes>
+      <WhatsAppButton />
     </Router>
   );
 }

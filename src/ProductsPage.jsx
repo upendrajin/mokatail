@@ -44,6 +44,8 @@ import Connectors from "./assets/products/soda-QCD.png";
 import Clamp from "./assets/products/sewer.png";
 import CO2Ring from "./assets/products/co2-register-ring.png";
 import ChoppingBoard from "./assets/products/ped.png";
+import Menuchart1 from "./assets/products/Menuchart1.jpeg";
+import Menuchart2 from "./assets/products/Menuchart2.jpeg";
 
 import icemojito from "./assets/icemohito.png"
 import Ice from "./assets/Ice.png"
@@ -180,8 +182,12 @@ const products = {
       img: Chairs
     },
     {
-      name: "Eco vinyl stickers",
-      img: ""
+      name: "Menu chart 1",
+      img: Menuchart1
+    },
+     {
+      name: "Menu chart 2",
+      img: Menuchart2
     },
     {
       name: "Interior Design ACT Sheet (400 to 500 sq.ft)",
