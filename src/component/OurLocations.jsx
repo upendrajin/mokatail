@@ -39,12 +39,12 @@ const locations = [
   {
     title: "Gadhada Road, Botad",
     owner: "Mocktail Team",
-    map: "https://www.google.com/maps?q=Gadhada+Road,Botad&output=embed",
+    map: "https://maps.app.goo.gl/xQBxJXRr5n4jCSBT8",
   },
   {
     title: "New Bus Stand Area, Amreli",
     owner: "Mocktail Team",
-    map: "https://www.google.com/maps?q=Amreli,Gujarat&output=embed",
+    map: "https://maps.app.goo.gl/69Ug6nYX7XccgaVX6",
   },
 ];
 

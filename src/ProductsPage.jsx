@@ -46,111 +46,152 @@ import CO2Ring from "./assets/products/co2-register-ring.png";
 import ChoppingBoard from "./assets/products/ped.png";
 import Menuchart1 from "./assets/products/Menuchart1.jpeg";
 import Menuchart2 from "./assets/products/Menuchart2.jpeg";
+import icecreamFridge from "../src/assets/icecream-fridge.png"
 
 import icemojito from "./assets/icemohito.png"
-import Ice from "./assets/Ice.png"
+import mockTail from "./assets/mocktail.png"
 import Milk from "./assets/Milk.png"
-import Soda from "./assets/Soda-Flav.png"
 import Franchise from "./assets/franchise-kit.png"
+import jamun from "./assets/jamun.jpg"
+import Premium from "./assets/premium.png"
+import Coco from "./assets/coco.jpg"
+import Icesoda from "./assets/ice-soda.jpg"
 
 const categories = [
-  { 
-    id: "icemojito", 
-    label: "Ice & Mojito", 
-
-    icon: icemojito 
+  {
+    id: "mocktail",
+    label: "Mocktail",
+    icon: mockTail
   },
-  { 
-    id: "ice", 
-    label: "Ice", 
-    icon: Ice 
+  {
+    id: "icemojito",
+    label: "Ice & Mojito",
+    icon: icemojito
   },
-  { 
-    id: "milk", 
-    label: "Milk", 
-    icon: Milk 
+  {
+    id: "milk",
+    label: "Milk Cold Drinks",
+    icon: Milk
   },
-  { 
-    id: "soda", 
-    label: "Soda Flav", 
-    icon: Soda 
+  {
+    id: "premium",
+    label: "Premium Milk-Shakes",
+    icon: Premium
   },
-  { 
-    id: "franchise", 
-    label: "Franchise Products", 
-    icon: Franchise 
+  {
+    id: "Naturalfruits",
+    label: "Natural fruits",
+    icon: jamun
   },
-  
+  {
+    id: "coco",
+    label: "Live Coco",
+    icon: Coco
+  },
+  {
+    id: "icesoda",
+    label: "Icecream Soda",
+    icon: Icesoda
+  },
+  {
+    id: "franchise",
+    label: "Franchise Products",
+    icon: Franchise
+  },
 ];
 
 const products = {
-  icemojito: [
-    { "name": "Blue Curacao" },
-    { "name": "Mint Mojito" },
-    { "name": "Watermelon" },
-    { "name": "Blue Berry Ice" },
-    { "name": "Chilli Mojito" },
-    { "name": "Falsa Ice" },
-    { "name": "Guava Ice" },
-    { "name": "Green Mango Ice" },
-    { "name": "Lemon Ice" },
-    { "name": "Pineapple Ice" },
-    { "name": "Cranberry" },
-    { "name": "Strawberry Ice Milk" },
-    { "name": "Jeera Masala Ice" },
-    { "name": "Kulfi Falooda" },
-    { "name": "American Ice" },
-    { "name": "Coffee" },
-    { "name": "Pan Pasand" },
-    { "name": "Kashmiri Gulab" },
+  mocktail: [
+    { "name": "Green Lemi" },
+    { "name": "Blue Lemon" },
+    { "name": "Red Bull" },
+    { "name": "Kiwi" },
+    { "name": "Black Currant" },
+    { "name": "Classic Mojito" },
+    { "name": "Lime Soda" },
+    { "name": "Pineapple Wall" },
+    { "name": "Green Mint" },
     { "name": "Blue Lagoon" },
-    { "name": "Pinaromance Mocktail" },
-    { "name": "Passion Fruit Mocktail" },
-    { "name": "Kala Khatta Ice" },
-    { "name": "Wine Grapes" },
-    { "name": "Red Hot Mocktail" },
-    { "name": "Angry Bee Mocktail" },
-    { "name": "Beer Coffee" },
-    { "name": "Beer Malt" },
-    { "name": "Beer Chocolate" },
-    { "name": "Beer Cranberry" },
-    { "name": "Beer Ginger" },
-    { "name": "Litchi Ice" },
-    { "name": "Kokum" },
-    { "name": "Chocolate" }
+    { "name": "Mint Chocolate" },
+    { "name": "Cherry Chocolate" },
+    { "name": "Masala Masti" },
+    { "name": "Lemon Tea" },
+    { "name": "Mojito Mint" },
+    { "name": "Sharbat Punch" },
+    { "name": "Super Mint" },
+    { "name": "Mango Lemon Tea" },
+    { "name": "Jam Berry" },
+    { "name": "Pina Colada" },
+    { "name": "Pink Mocktail" },
+    { "name": "Litchi Squash" },
+    { "name": "Blue Power" },
+    { "name": "Aam Panna" }
   ],
-  ice: [
-    { name: "Blue Curacao" },
-    { name: "Mint Mojhito" },
-    { name: "Water Melon" },
-    { name: "Chilli Mojhito" },
-    { name: "Falsa Ice" },
-    { name: "Guava Ice" },
-    { name: "Green Mango Ice" },
-    { name: "Lemon Ice" },
-    { name: "Lichy Ice" },
+  icemojito: [
+    { "name": "Blck Forest" },
+    { "name": "Kiwi Killer" },
+    { "name": "Fresh Mint" },
+    { "name": "Pineapple" },
+    { "name": "Blue Haven" },
+    { "name": "Orange" },
+    { "name": "Blue Mint" },
+    { "name": "Pineapple Blue" },
+    { "name": "Pink Power" },
+    { "name": "Green Punch" }
+  ],
+  Naturalfruits: [
+    { "name": "Pineapple Tukdi" },
+    { "name": "Dadum Dana" },
+    { "name": "Sing Topra Dadum" },
+    { "name": "Strawberry Tukdi" },
+    { "name": "Jambun Shot" },
+    { "name": "Mix Fruit Tukdi" },
+    { "name": "Jambun Shot 2x" },
+    { "name": "Jambun Shot 4x" }
   ],
   milk: [
-    { name: "Blue Curacao" },
-    { name: "Mint Mojhito" },
-    { name: "Water Melon" },
-    { name: "Chilli Mojhito" },
-    { name: "Falsa Ice" },
-    { name: "Guava Ice" },
-    { name: "Green Mango Ice" },
-    { name: "Lemon Ice" },
-    { name: "Lichy Ice" },
+    { "name": "Kesar Pista" },
+    { "name": "Mava Malai" },
+    { "name": "Raj Bhog" },
+    { "name": "Rose" },
+    { "name": "Butter Scotch" },
+    { "name": "Badam Pista" },
+    { "name": "Mango" },
+    { "name": "Black Currant" },
+    { "name": "Kiwi" },
+    { "name": "Jamun" },
+    { "name": "Strawberry" },
+    { "name": "Shahi Variyali" },
+    { "name": "Blue Pearl" }
   ],
-  soda: [
-    { name: "Blue Curacao" },
-    { name: "Mint Mojhito" },
-    { name: "Water Melon" },
-    { name: "Chilli Mojhito" },
-    { name: "Falsa Ice" },
-    { name: "Guava Ice" },
-    { name: "Green Mango Ice" },
-    { name: "Lemon Ice" },
-    { name: "Lichy Ice" },
+  premium : [
+    { "name": "Mango Icecream" },
+    { "name": "Pineapple Icecream" },
+    { "name": "Strawberry Icecream" },
+    { "name": "Jamun Icecream" },
+    { "name": "Pista Icecream" },
+    { "name": "Pista Mango Icecream" },
+    { "name": "Pista Strawberry Icecream" },
+    { "name": "Pal Mango Icecream" },
+    { "name": "Shahi Modak Icecream" },
+    { "name": "Rajwadi Chiku Icecream" },
+    { "name": "Royal Rose Icecream Shake" }
+  ],
+  coco: [
+    { "name": "Chocobit Coco" },
+    { "name": "Chocobit Icecream" },
+    { "name": "Chocolate Chips" },
+    { "name": "Chocolate Kaju Icecream" },
+    { "name": "Chocolate Kitkat" }
+  ],
+  icesoda: [
+    { "name": "Mango Icecream" },
+    { "name": "Strawberry Icecream" },
+    { "name": "Mango Current Icecream" },
+    { "name": "Jamun Mix Icecream" },
+    { "name": "Modak Icecream" },
+    { "name": "Pineapple Icecream" },
+    { "name": "Jamun Icecream" }
   ],
   franchise: [
     {
@@ -178,6 +219,10 @@ const products = {
       img: FridgeVrticle
     },
     {
+      name: "Ice cream freze",
+      img: icecreamFridge
+    },
+    {
       name: "5 Baby Ch 10 Adult Chairs",
       img: Chairs
     },
@@ -185,7 +230,7 @@ const products = {
       name: "Menu chart 1",
       img: Menuchart1
     },
-     {
+    {
       name: "Menu chart 2",
       img: Menuchart2
     },
