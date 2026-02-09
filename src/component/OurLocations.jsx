@@ -39,12 +39,12 @@ const locations = [
   {
     title: "Gadhada Road, Botad",
     owner: "Mocktail Team",
-    map: "https://maps.app.goo.gl/xQBxJXRr5n4jCSBT8",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.6202616883947!2d71.652709!3d22.178522400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3958ddd3947edbdd%3A0x82adcbc172c8b81f!2sMocktail%20soda%20%26%20Ice%20cream!5e0!3m2!1sgu!2sin!4v1770642971643!5m2!1sgu!2sin",
   },
   {
     title: "New Bus Stand Area, Amreli",
     owner: "Mocktail Team",
-    map: "https://maps.app.goo.gl/69Ug6nYX7XccgaVX6",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.527982485339!2d71.223235!3d21.604340399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39588100740f009f%3A0xff22689f0a131bde!2sMOCKTAIL%20SODA%20AND%20ICECREAM!5e0!3m2!1sgu!2sin!4v1770642775650!5m2!1sgu!2sin",
   },
 ];
 
